@@ -1,0 +1,106 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PackageEditorDlg DIALOGEX 0, 0, 267, 283
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "Package Editor"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATIC,126,4,77,8
+    EDITTEXT        ID_PACKAGE_EDIT,77,31,36,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Package:",IDC_STATIC,26,34,48,14
+    LTEXT           "Step:",IDC_STATIC,25,59,28,12
+    EDITTEXT        ID_STEP_EDIT,76,54,18,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Load",IDOK,119,30,50,14
+    LISTBOX         ID_BACKUP_LIST,28,86,142,106,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Load Backup",ID_BACKUP_LOAD,92,71,78,14
+    EDITTEXT        ID_SAVE_DIRECTORY,56,209,197,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Update",ID_UPDATE_SAVE_DIRECTORY,203,226,50,14
+    LTEXT           "Save To",IDC_STATIC,24,211,30,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PackageEditorDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
