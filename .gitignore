@@ -1,0 +1,16 @@
+*.suo
+*/bin/*
+!*/bin/*.refresh
+/obj/
+/Debug/
+/Release/
+/Unicode Debug/
+/ipch/
+Thumbs.db
+BackupList.htm
+*.sln.old
+*.suo.old
+*.vcproj.8.00.old
+*.opensdf
+*.sdf
+*.ncb
